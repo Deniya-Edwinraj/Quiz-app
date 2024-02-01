@@ -54,18 +54,59 @@ let questions = [
       "eXamine Multiple Language"
     ]
   },
-  // you can uncomment the below codes and make duplicate as more as you want to add question
-  // but remember you need to give the numb value serialize like 1,2,3,5,6,7,8,9.....
-
-  //   {
-  //   numb: 6,
-  //   question: "Your Question is Here",
-  //   answer: "Correct answer of the question is here",
-  //   options: [
-  //     "Option 1",
-  //     "option 2",
-  //     "option 3",
-  //     "option 4"
-  //   ]
-  // },
+    {
+    numb: 6,
+    question: "How many bits make a byte?",
+    answer: "8 bits",
+    options: [
+      "16 bits",
+      "8 bits",
+      "24 bits",
+      "12 bits"
+    ]
+  },
+  {
+    numb: 7,
+    question: "What is the full form of (CPU)?",
+    answer: "Central Processing Unit",
+    options: [
+      "Central Processing Unit",
+      "Critical Processing Unit",
+      "Crucial Processing Unit",
+      "Central Printing Unit"
+    ]
+  },
+  {
+    numb: 8,
+    question: "The largest key on the Keyboard is ",
+    answer: "Space bar",
+    options: [
+      "Shift",
+      "Space bar",
+      "Escape",
+      "Tab"
+    ]
+  },
+  {
+    numb: 9,
+    question: "The first search engine on the internet is",
+    answer: "Archie",
+    options: [
+      "Archie",
+      "Google",
+      "Bing",
+      "Yahoo"
+    ]
+  },
+  {
+    numb: 10,
+    question: "Which of the following is NOT a web browser?",
+    answer: "Windows",
+    options: [
+      "Chrome",
+      "Windows",
+      "Firefox",
+      "Edge"
+    ]
+  },
 ];
