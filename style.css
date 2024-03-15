@@ -8,7 +8,7 @@
 }
 
 body{
-    background: #c9c0bb;
+    background: #000;
 }
 
 ::selection{
@@ -24,8 +24,7 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 
-                0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 0px 10px 0 #3500D3;
 }
 
 .info_box.activeInfo,
@@ -40,18 +39,21 @@ body{
 .start_btn button{
     font-size: 25px;
     font-weight: 500;
-    color: #000;
+    color: #fff;
     padding: 15px 30px;
     outline: none;
     border: none;
     border-radius: 5px;
-    background: #fff;
+    background: #000;
     cursor: pointer;
+}
+.start_btn button:hover{
+    box-shadow: 0 0px 10px 0 #190061;
 }
 
 .info_box{
     width: 540px;
-    background: #fff;
+    background: #000;
     border-radius: 5px;
     transform: translate(-50%, -50%) scale(0.9);
     opacity: 0;
@@ -62,13 +64,17 @@ body{
 .info_box .info-title{
     height: 60px;
     width: 100%;
-    border-bottom: 1px solid lightgrey;
+    border-bottom: 1px solid #190061;
     display: flex;
     align-items: center;
     padding: 0 30px;
     border-radius: 5px 5px 0 0;
     font-size: 20px;
     font-weight: 600;
+    color: #fff;
+}
+.info{
+    color: #fff;
 }
 
 .info_box .info-list{
@@ -82,7 +88,7 @@ body{
 
 .info_box .info-list .info span{
     font-weight: 600;
-    color: #007bff;
+    color: #3500D3;
 }
 .info_box .buttons{
     height: 60px;
@@ -90,7 +96,7 @@ body{
     align-items: center;
     justify-content: flex-end;
     padding: 0 30px;
-    border-top: 1px solid lightgrey;
+    border-top: 1px solid #190061;
 }
 
 .info_box .buttons button{
@@ -103,7 +109,7 @@ body{
     border: none;
     outline: none;
     border-radius: 5px;
-    border: 1px solid #007bff;
+    border: 1px solid #3500D3;
     transition: all 0.3s ease;
 }
 
@@ -163,7 +169,7 @@ body{
     border-radius: 5px;
     line-height: 30px;
     text-align: center;
-    background: #343a40;
+    background: #3500D3;
     border: 1px solid #343a40;
     user-select: none;
 }
@@ -173,7 +179,7 @@ body{
     bottom: 0px;
     left: 0px;
     height: 3px;
-    background: #007bff;
+    background: #3500D3;
 }
 
 section{
@@ -287,7 +293,7 @@ footer button{
     outline: none;
     color: #fff;
     border-radius: 5px;
-    background: #007bff;
+    background: #3500D3;
     border: 1px solid #007bff;
     line-height: 10px;
     opacity: 0;
@@ -297,7 +303,7 @@ footer button{
 }
 
 footer button:hover{
-    background: #0263ca;
+    background: #353535;
 }
 
 footer button.show{
@@ -323,7 +329,7 @@ footer button.show{
 
 .result_box .icon{
     font-size: 100px;
-    color: #007bff;
+    color: #3500D3;
     margin-bottom: 10px;
 }
 
@@ -365,19 +371,19 @@ footer button.show{
 
 .buttons button.restart{
     color: #fff;
-    background: #007bff;
+    background: #000;
 }
 
 .buttons button.restart:hover{
-    background: #0263ca;
+    background: #3500D3;
 }
 
 .buttons button.quit{
-    color: #007bff;
-    background: #fff;
+    color: #fff;
+    background: #000;
 }
 
 .buttons button.quit:hover{
     color: #fff;
-    background: #007bff;
+    background: #3500D3;
 }
